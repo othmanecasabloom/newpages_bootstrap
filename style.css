@@ -1,0 +1,110 @@
+### Primary
+
+- Soft orange: hsl(35, 77%, 62%)
+- Soft red: hsl(5, 85%, 63%)
+
+### Neutral
+
+--Off-white: hsl(36, 100%, 99%)
+--Grayish-blue: hsl(233, 8%, 79%)
+--Dark-grayish-blue: hsl(236, 13%, 42%)
+--Very-dark-blue: hsl(240, 100%, 5%)
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: var(--Off-white);
+}
+.navbar-nav {
+    color: hsl(233, 8%, 79%);
+}
+
+.card-title {
+    font-size: 2rem;
+    font-weight: 800;
+  }
+  
+  .card-subtitle {
+    padding: 3% 0;
+  }
+  
+  .card-text {
+    color: hsl(36, 100%, 99%);
+    padding: 6% 0;
+  }
+  
+  .btn {
+    --bs-btn-border-radius: 0;
+    --bs-btn-border-width: 0;
+    --bs-btn-hover-bg: hsl(240, 100%, 5%);
+    background-color: hsl(5, 85%, 63%);
+    margin-top: 13%;
+    font-family: inherit;
+    font-weight: 700;
+    letter-spacing: 0.2rem;
+    padding: 3% 7%;
+  }
+  
+  .btn:hover {
+    background-color: hsl(240, 100%, 5%);
+  }
+  
+  .title-text {
+    padding: 4% 0;
+  }
+  
+  .main-article {
+    letter-spacing: 0.1rem;
+  }
+  
+  .card-bottom {
+    --bs-card-border-width: none;
+  padding: 1px;
+  }
+  
+  
+  .article-link-bottom {
+    text-decoration: none;
+    color: hsl(240, 100%, 5%);
+    font-size: 1.2rem;
+    font-weight: 700;
+  }
+  
+  .article-link-bottom:hover {
+    color: hsl(5, 85%, 63%)
+  }
+  
+  .card-bottom {
+    --bs-card-spacer-y: 0;
+  }
+  
+  .card-title-bottom {
+    color: hsl(233, 8%, 79%);
+    letter-spacing: 0.15rem;
+    font-size: 2.2rem;
+    font-weight: 800;
+  }
+  
+  .card-subtitle-bottom {
+  
+        padding: 5% 0 2%;
+  }
+  
+  .card-text-bottom {
+  color: hsl(236, 13%, 42%);
+  margin: 8% 0;
+  }
+
+
+
+
+
+
+
+
+
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
