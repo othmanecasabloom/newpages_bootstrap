@@ -61,10 +61,10 @@ body{
   }
   
   .card-bottom {
-    --bs-card-border-width: none;
+  --bs-card-border-width: none;
   padding: 1px;
   }
-  
+
   
   .article-link-bottom {
     text-decoration: none;
@@ -92,18 +92,11 @@ body{
   
         padding: 5% 0 2%;
   }
-  
+
   .card-text-bottom {
   color: hsl(236, 13%, 42%);
   margin: 8% 0;
   }
-
-
-
-
-
-
-
 
 
 .attribution { font-size: 12px; text-align: center; }
